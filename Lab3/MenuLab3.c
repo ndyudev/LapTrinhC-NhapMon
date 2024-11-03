@@ -6,6 +6,7 @@ int main() {
     scanf("%d,so");
     printf("Bebug2");
     printf("Debug3");
-    printf("Debug3.1")
+    printf("Debug3.1");
     printf("Debug4");
+    printf("Debug5");
 }
