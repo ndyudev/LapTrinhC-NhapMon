@@ -3,5 +3,6 @@
 int main() {
     float so;
     printf("Debug");
-    scanf("%d,so")
+    scanf("%d,so");
+    printf("Bebug2");
 }
