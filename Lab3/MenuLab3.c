@@ -5,4 +5,5 @@ int main() {
     printf("Debug");
     scanf("%d,so");
     printf("Bebug2");
+    printf("Debug3");
 }
