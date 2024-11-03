@@ -1,5 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("Debug")
+    float so;
+    printf("Debug");
+    scanf("%d,so")
 }
