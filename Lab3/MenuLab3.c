@@ -9,9 +9,8 @@ int main() {
     printf("Bug")
     printf("Bug")
     printf("Bug")
-      printf("Bug")
     printf("Bug")
     printf("Bug")
-
+    // Debug7
 
 }
