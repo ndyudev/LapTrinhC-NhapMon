@@ -2,15 +2,7 @@
 
 int main() {
     float so;
-    printf("Bug")
-    printf("Bug")
-    printf("Bug")
-    printf("Bug")
-    printf("Bug")
-    printf("Bug")
-    printf("Bug")
-    printf("Bug")
-    printf("Bug")
-    // Debug7
+    printf("Hello World");
+    // Debug 8
 
 }
