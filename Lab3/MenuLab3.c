@@ -3,4 +3,8 @@
 int main() {
     float so;
     printf("Bug")
+    printf("Bug")
+    printf("Bug")
+
+
 }
