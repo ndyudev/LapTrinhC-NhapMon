@@ -3,7 +3,7 @@
  
 int main() 
 { 
-    bool value = true;
+    bool value = false;
     if (value) { // tương đương với kiểm tra value == true
       printf("value is true");  
   } else {
