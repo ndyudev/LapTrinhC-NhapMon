@@ -9,7 +9,8 @@ int main()
   } else {
     printf("value is false");
   }
-  printf("lab4");
+  printf("lab5");
+   printf("lab5");
     return 0; 
 // Debug 4 
 }
