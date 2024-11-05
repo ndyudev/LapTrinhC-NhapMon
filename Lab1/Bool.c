@@ -10,4 +10,12 @@ int main()
     printf("value is false");
   }
     return 0; 
+
+        bool value = false;
+    if (value) { // tương đương với kiểm tra value == true
+      printf("value is true");  
+  } else {
+    printf("value is false");
+  }
+    return 0; 
 }
