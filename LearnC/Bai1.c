@@ -12,6 +12,6 @@ int main() {
         printf("So nay la so le\n");
         scanf("%d",&so);
     }
-
+    printf("Ket Thuc chuong trinh\n");
     return 0;
 }
