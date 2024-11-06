@@ -10,6 +10,7 @@ int main() {
         printf("So nay la so chan\n");
     } else {
         printf("So nay la so le\n");
+        scanfff
     }
 
     return 0;
