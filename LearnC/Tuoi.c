@@ -9,4 +9,5 @@ int main()
     scanf("%d",&tuoi);
     printf("So tuoi cua ban:%d", tuoi);
     return 0;
+    //Oke
 }

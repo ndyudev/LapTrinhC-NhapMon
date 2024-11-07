@@ -8,4 +8,5 @@ int main()
     scanf("%f",&canNang);
     printf("So can nang:%.2f", canNang);
     return 0;
+    //Oke
 }
