@@ -27,6 +27,5 @@ int main() {
         printf("so a , b , c khong la so le");
     }
     
-
     return 0;
 }
