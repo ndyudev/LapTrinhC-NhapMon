@@ -20,6 +20,7 @@ int main() {
         x = -b / a;
         printf("Phuong trinh co nghiem x = %.2f\n", x);
     }
-
+    // Debug
+    printf("Hello World");
     return 0;
 }
