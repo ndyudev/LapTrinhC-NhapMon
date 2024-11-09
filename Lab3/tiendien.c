@@ -8,7 +8,6 @@ int main() {
     printf("Nhap vao so kWh tieu thu hang thang: ");
     scanf("%d", &kWh);
 
-    // Tính tiền điện theo các bậc
     if (kWh <= 50) {
         total = kWh * 1678;
     } else if (kWh <= 100) {
