@@ -2,14 +2,13 @@
 
 int main() {
     float a, b, x;
-
-    // Nhập giá trị của a và b
+    // Nhập giá trị của a và b.
     printf("Nhap vao gia tri cua a: ");
     scanf("%f", &a);
     printf("Nhap vao gia tri cua b: ");
     scanf("%f", &b);
-
-    // Xét các trường hợp của phương trình
+    // Nếu a == 0 phương trình vô nghiệm.
+    // Nếu a và b bằng 0 thì phương trình vô số nghiệm.
     if (a == 0) {
         if (b == 0) {
             printf("Phuong trinh co vo so nghiem.\n");
