@@ -21,6 +21,6 @@ int main() {
         printf("Phuong trinh co nghiem x = %.2f\n", x);
     }
     // Debug
-    printf("Hello World");
+    printf("Ket thuc chuong trinh");
     return 0;
 }
