@@ -22,5 +22,6 @@ int main() {
     }
     // Debug
     printf("Ket thuc chuong trinh");
+    printf("Ban muon tiep tuc hay khong?");
     return 0;
 }
