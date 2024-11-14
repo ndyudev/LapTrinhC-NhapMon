@@ -7,7 +7,7 @@ int main() {
     int kWh;
     float total = 0;
     float diem;
-
+    // Debug Menu Lab 3
     printf("---- MENU LAB 3 ----\n");
     printf("1. GIAI PHUONG TRINH BAT NHAT\n");
     printf("2. GIAI PHUONG TRINH BAT HAI\n");
