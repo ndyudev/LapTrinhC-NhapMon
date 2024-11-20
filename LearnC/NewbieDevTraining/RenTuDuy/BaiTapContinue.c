@@ -1,32 +1,27 @@
 #include <stdio.h>
 
-int main(){
+int main() {
     int soNguyen, tong = 0;
+
     printf("Nhap vao so nguyen (Nhap 0 de ket thuc): ");
     scanf("%d", &soNguyen);
-    if (soNguyen == 0)
-    {
-        printf("Chuong trinh het thuc");
-    }
-    else
-    {
-        if (soNguyen > 0)
-        {
-            while (soNguyen > 0)
-            {
-                tong += soNguyen;
-                printf("So ban nhap la so duong\n");
-                printf("Nhap vao so nguyen (Nhap 0 de ket thuc): ");
-                scanf("%d", &soNguyen);
-            }
+
+    while (soNguyen != 0) { // Lặp cho đến khi nhập số 0
+        if (soNguyen > 0) {
+            tong += soNguyen; // Cộng số dương vào tổng
+            printf("So ban nhap la so duong. Tong hien tai: %d\n", tong);
+        } else {
+            printf("So ban nhap la so am. Khong cong vao tong.\n");
         }
-        else {
-            while (soNguyen < 0)
-            {
-                printf("So ban nhap la so am: ");
-                scanf("%d", &soNguyen);
-            } 
-        }
+
+        // Nhập số tiếp theo
+        printf("Nhap vao so nguyen (Nhap 0 de ket thuc): ");
+        scanf("%d", &soNguyen);
     }
-    printf("Tong cac so nguyen: %d",tong);
+
+    // Khi kết thúc vòng lặp
+    printf("Chuong trinh ket thuc.\n");
+    printf("Tong cac so duong da nhap: %d\n", tong);
+
+    return 0;
 }
