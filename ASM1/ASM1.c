@@ -12,7 +12,7 @@ void displayMenu() {
     printf("||    6. Tinh lai suat vay ngan hang      ||\n");
     printf("||    7. Vay tien mua xe                  ||\n");
     printf("||    8. Sap xep thong tin sinh vien      ||\n");
-    printf("||    9. Game FPOLY-LOTT                 ||\n");
+    printf("||    9. Game FPOLY-LOTT                  ||\n");
     printf("||   10. Tinh toan phan so                ||\n");
     printf("||   11. Thoat chuong trinh               ||\n");
     printf("============================================\n");
