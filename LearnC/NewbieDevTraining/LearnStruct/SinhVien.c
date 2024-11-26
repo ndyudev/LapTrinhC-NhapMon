@@ -28,7 +28,7 @@ void nhapSinhVien(Student* students, int n) {
     }
 }
 
-// Hàm xuất thông tin sinh viên
+
 void xuatSinhVien(Student* students, int n) {
     printf("\n===============================================\n");
     printf("| %-5s | %-30s | %-10s |\n", "STT", "Ho va Ten", "Nam Sinh");
