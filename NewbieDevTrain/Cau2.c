@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int number, reverse = 0;
-    printf("Enter a number: ");
-    scanf("%d", &number);
+    int so, soDaoNguoc = 0;
+    printf("Nhap so: ");
+    scanf("%d", &so);
 
-    while (number != 0) {
-        reverse = reverse * 10 + (number % 10);
-        number /= 10;
+    while (so != 0) {
+        int chuSoCuoi = so % 10;
+        soDaoNguoc = soDaoNguoc * 10 + chuSoCuoi;
+        so = so / 10;
     }
 
-    printf("Reversed number: %d\n", reverse);
+    printf("So dao nguoc: %d\n", soDaoNguoc);
     return 0;
 }
